@@ -1,0 +1,48 @@
+.remove {
+  display: none;
+}
+#output {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.success-msg {
+  border: 1px solid #00bbb4;
+  border-radius: 2px;
+}
+.success-msg p {
+  font-weight: 450;
+  padding: 15p;
+}
+.success-msg .info-title {
+  display: flex;
+  background-color: #00bbb4;
+  color: white;
+  padding: 7px;
+}
+.success-msg .icon {
+  background-color: rgba(10, 10, 10, 0.3);
+  font-size: 1rem;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 12px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.info {
+  padding: 15px;
+}
+.info span {
+  font-weight: 700;
+}
+.error-msg {
+  font-weight: 500;
+  border: 1.9px solid #ff3860;
+  background-color: whitesmoke;
+  padding: 15px;
+  color: #cd0930;
+}

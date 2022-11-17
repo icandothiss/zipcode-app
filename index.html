@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+      integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/c69d95a97b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero hero-body is-dark container">
+      <h1 class="title">US Location Info</h1>
+      <h2 class="subtitle">Enter a zipcode to get the location info</h2>
+      <form id="zipForm">
+        <div class="field">
+          <div class="control has-icons-left has-icons-right">
+            <input
+              id="input"
+              class="input zip is-large"
+              type="text"
+              placeholder="Enter Zipcode"
+            />
+            <span class="icon is-small is-left">
+              <i class="fa fa-map-pin"></i>
+            </span>
+            <span id="check" class="remove icon is-small is-right icon-check">
+              <i class="fa fa-check"></i>
+            </span>
+            <span id="remove" class="remove icon is-small is-right icon-remove">
+              <i class="fa fa-remove"></i>
+            </span>
+          </div>
+        </div>
+      </form>
+    </section>
+    <br />
+    <div id="output"></div>
+  </body>
+</html>
